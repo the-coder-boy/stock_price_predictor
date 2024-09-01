@@ -5,8 +5,6 @@ import asyncio
 import aiohttp
 
 class CarsData():
-   
-    apikey=""
     
     newKeys=[]
     tickers = {"Tesla":"TSLA", "Ford Motors":"F", "Honda Motors":"HMC", "Volkswagen":"VWAGY", "Mercedes-Benz":"MBGYY", "BMW":"BMWYY", "Nissan Motors":"NSAYY", "Toyota":"TM", "Ferrari":"RACE", "MARUTI SUZUKI INDIA LTD.":"MARUTI.BSE", "Tata Motors Limited":"TATAMOTORS.BSE", "Mahindra & Mahindra Ltd":"MAHMF"}
