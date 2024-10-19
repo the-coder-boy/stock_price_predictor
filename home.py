@@ -5,9 +5,11 @@ from keras.models import load_model
 import streamlit as st
 import matplotlib.pyplot as plt
 
-model=load_model('model/Stock Prediction Model.keras')
+model=load_model('model\Stock Prediction Model.keras')
 
 st.title('Stock Market Predictor')
+
+st.sidebar.success("Menu")
 
 stock=st.text_input('Enter Stock Tinker','GOOG')
 start='2015-01-01'
@@ -101,10 +103,6 @@ def get_opinion(predicted, actual,previous_actual, buy_threshold=0.01, sell_thre
     else:
         return "Keep"
 
-# st.write("Stock Predictions and Opinions")
-
-# Slider 
-# num_days = st.slider('Select number of days to show opinions:', min_value=1, max_value=30, value=5)
 
 st.write("Stock Predictions and Opinions")
 
