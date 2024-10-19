@@ -12,5 +12,5 @@ pip install requirements.txt -r
 `
 - Step -2
 `
-streamlit run app.pt
+streamlit run app.py
 `
