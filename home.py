@@ -12,7 +12,6 @@ st.set_page_config(page_title="Home", page_icon="📈")
 model=load_model('Stock Prediction Model.keras')
 =======
 model=load_model('model\Stock Prediction Model.keras')
->>>>>>> 4998d2d22516d6e1a444bbbc588cdfa19206009e
 
 st.title('Stock Market Predictor')
 
