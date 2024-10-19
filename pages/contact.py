@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(page_title="Contact Us", page_icon=":contact:")
 
 st.title('Contact Us')
 st.sidebar.success("Menu")

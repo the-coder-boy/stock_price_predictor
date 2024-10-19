@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="About Us", page_icon=":wave:")
+st.set_page_config(page_title="About Us", page_icon="🖐")
 st.sidebar.success("Menu")
 def about_us():
     st.title("About Us")

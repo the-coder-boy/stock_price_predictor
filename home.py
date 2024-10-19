@@ -5,6 +5,9 @@ from keras.models import load_model
 import streamlit as st
 import matplotlib.pyplot as plt
 
+st.set_page_config(page_title="Home", page_icon="📈")
+
+
 model=load_model('model\Stock Prediction Model.keras')
 
 st.title('Stock Market Predictor')
