@@ -9,8 +9,6 @@ st.set_page_config(page_title="Home", page_icon="📈")
 
 model=load_model('Stock Prediction Model.keras')
 
-model=load_model('Stock Prediction Model.keras')
-
 st.title('Stock Market Predictor')
 
 st.sidebar.success("Menu")
