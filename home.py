@@ -106,7 +106,7 @@ def get_opinion(predicted, actual,previous_actual, buy_threshold=0.01, sell_thre
         return "Keep"
 
 
-st.write("Stock Predictions and Opinions")
+st.subheader("Stock Predictions and Opinions")
 
 # Slider 
 num_days = st.slider('Select number of days to show opinions:', min_value=1, max_value=30, value=5)
