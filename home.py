@@ -5,7 +5,7 @@ from keras.models import load_model
 import streamlit as st
 import matplotlib.pyplot as plt
 
-
+currentDate = pd.to_datetime('today').strftime('%Y-%m-%d')
 
 st.set_page_config(page_title="Home", page_icon="📈")
 
@@ -17,7 +17,7 @@ st.sidebar.success("Menu")
 
 stock=st.text_input('Enter Stock Tinker','GOOG')
 start='2015-01-01'
-end='2024-10-21'
+end=currentDate
 
 data=yf.download(stock,start,end)
 
