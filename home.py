@@ -15,7 +15,7 @@ st.sidebar.success("Menu")
 
 stock=st.text_input('Enter Stock Tinker','GOOG')
 start='2015-01-01'
-end='2024-09-30'
+end='2024-10-15'
 
 data=yf.download(stock,start,end)
 
